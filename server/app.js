@@ -8,7 +8,7 @@ const app = express()
 
 app.use(cors())
 
-mongoose.connect('mongodb+srv://goutam:Mig29@graphql-swjxr.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true});
+mongoose.connect('', {useNewUrlParser: true});
 
 mongoose.connection.once('open', () => {
      console.log('connected to database')
